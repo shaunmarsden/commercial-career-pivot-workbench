@@ -51,14 +51,6 @@ Use an AI tool your organisation permits. Remove contact details and any custome
 
 Everything under `examples/` is fictional. The repository contains no real candidate, employer, customer or contact data.
 
-## Acknowledgement
-
-The first version was prompted by a [public thread from Aria Westcott](https://x.com/AriaWestcott) about using a CV to discover adjacent roles. This repository does not reproduce the thread's prompts. It develops the general idea into a separate evidence-checked workflow.
-
 ## Status
 
 This is a practical first version. The method and worked example demonstrate the process, not employment outcomes. Feedback should focus on whether the workflow makes choices clearer and exposes unsupported claims.
-
-## Licence
-
-[MIT](LICENSE)
