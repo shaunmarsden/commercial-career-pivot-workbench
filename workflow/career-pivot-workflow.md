@@ -1,6 +1,6 @@
 # Career Pivot Workflow
 
-Use this workflow to explore career options from existing experience without treating an AI-generated list as a labour-market fact.
+Use this to explore career options from the experience you already have, without treating an AI's list as fact about the job market.
 
 ## Before You Start
 
@@ -11,11 +11,11 @@ You need:
 - Any practical constraints, such as location, working pattern or minimum pay
 - Access to current job listings when you reach the market-check stage
 
-Do not add customer names, confidential results, private references or personal identifiers to a public repository.
+Don't add customer names, confidential results, private references or anything that identifies a person to a public repository.
 
 ## 1. Build the Evidence Map
 
-Extract only what the CV supports:
+Pull out only what the CV supports:
 
 - Responsibilities
 - Achievements
@@ -25,11 +25,11 @@ Extract only what the CV supports:
 - Industry knowledge
 - Constraints and preferences
 
-Use the [Career Evidence Map](../templates/career-evidence-map.md). Do not rewrite the CV yet.
+Use the [Career Evidence Map](../templates/career-evidence-map.md). Don't rewrite the CV yet.
 
 ## 2. Generate Role Hypotheses
 
-Ask the AI to suggest up to fifteen roles. For every role, require:
+Ask the AI to suggest up to 15 roles. For every role, ask for:
 
 - Why the existing evidence may transfer
 - The strongest supporting experience
@@ -37,7 +37,7 @@ Ask the AI to suggest up to fifteen roles. For every role, require:
 - A confidence label: strong, plausible or speculative
 - What would need checking in current job descriptions
 
-Do not ask for a precise salary or hiring-demand ranking at this stage. Those are external claims, not conclusions that can be drawn from a CV.
+Don't ask for an exact salary or a ranking by hiring demand yet. Those are claims about the outside world, and a CV can't tell you them.
 
 ## 3. Create a Shortlist
 
@@ -51,24 +51,24 @@ Choose no more than five roles. Score each from 0 to 2 against:
 | Gap size | Large or unclear | Learnable gaps | Few material gaps |
 | Market evidence | No current evidence | Limited current evidence | Several relevant live listings |
 
-Keep the five dimension scores visible. Do not hide them inside one unexplained total.
+Keep all five scores visible. Don't hide them in one unexplained total.
 
 ## 4. Compare With Real Roles
 
-Collect three to five current job descriptions for each serious option. Record the source and access date.
+Collect three to five current job descriptions for each serious option. Note the source and the date you looked at it.
 
 Split requirements into:
 
-- **Supported:** the CV contains clear evidence
-- **Partly supported:** related experience exists, but the requirement is broader or deeper
-- **Not supported:** the CV contains no evidence
-- **Unclear:** the wording is ambiguous or the evidence needs confirming
+- Supported: the CV has clear evidence
+- Partly supported: there's related experience, but the requirement is broader or deeper
+- Not supported: the CV has no evidence
+- Unclear: the wording is ambiguous or the evidence needs confirming
 
-Use the [CV Claim Check](../checks/cv-claim-check.md) before rewriting any application material.
+Use the [CV Claim Check](../checks/cv-claim-check.md) before you rewrite any application material.
 
 ## 5. Verify Market Claims
 
-Salary, hiring demand, remote availability and entry difficulty can change quickly. Apply the [Market Claim Check](../checks/market-claim-check.md).
+Salary, hiring demand, remote work and how hard a role is to get into can all change quickly. Use the [Market Claim Check](../checks/market-claim-check.md).
 
 Record:
 
@@ -76,41 +76,41 @@ Record:
 - When it was checked
 - The location and seniority covered
 - The sample size
-- What remains uncertain
+- What's still uncertain
 
-If there is not enough evidence, label the claim `not yet verified`.
+If there isn't enough evidence, label the claim `not yet verified`.
 
 ## 6. Design Small Tests
 
-Choose the strongest two or three role hypotheses. Use actions that create learning without pretending a career decision has already been made.
+Pick the strongest two or three roles. Choose actions that teach you something, without pretending you've already made a career decision.
 
 Examples:
 
-- Analyse ten current job descriptions and update the evidence map
-- Build one small portfolio artefact that addresses a repeated gap
-- Ask a trusted person in the field to review the role assumptions
+- Read 10 current job descriptions and update the evidence map
+- Build one small piece of portfolio work that fills a gap that keeps coming up
+- Ask someone you trust in the field to check your assumptions about the role
 - Rewrite one CV section and check every claim against the source CV
-- Apply selectively and record which requirements create friction
+- Apply for a few roles and note which requirements cause trouble
 
-Do not automate applications, connection requests or direct messages.
+Don't automate applications, connection requests or direct messages.
 
 ## 7. Make the Decision
 
 For each shortlisted role, finish with one decision:
 
-- **Pursue now:** evidence and practical fit are strong enough to act
-- **Test first:** promising, but one or two important assumptions remain
-- **Build towards:** relevant, but a material gap needs work
-- **Park:** not attractive or practical at present
-- **Reject:** the evidence does not support the original idea
+- Pursue now: the evidence and practical fit are strong enough to act
+- Test first: promising, but one or two important assumptions are still untested
+- Build towards: relevant, but a real gap needs work
+- Park: not attractive or practical for now
+- Reject: the evidence doesn't support the original idea
 
-Record the reason. Rejecting a plausible-sounding role is a useful result.
+Write down the reason. Rejecting a role that sounded right is a useful result.
 
 ## Final Quality Check
 
-- Are all experience claims traceable to the source CV?
+- Can you trace every experience claim back to the source CV?
 - Are market claims supported by current sources and dates?
 - Are gaps visible rather than softened?
 - Are confidence labels honest?
-- Does the plan produce learning, not just activity?
-- Does the person retain control of every application and contact?
+- Does the plan teach you something, not just keep you busy?
+- Does the person keep control of every application and contact?
