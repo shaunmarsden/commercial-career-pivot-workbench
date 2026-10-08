@@ -20,21 +20,23 @@ This is a workflow for sales and commercial people looking at a nearby role or a
 ## What It Produces
 
 - A long list of possible roles, including nearby ones
-- A shortlist ranked by evidence of fit, not by how confident the wording sounds
+- A shortlist of up to five roles, scored on five dimensions, not on how confident the wording sounds
 - A map from each role requirement to experience you've already shown
-- Clear gaps, split into essential, learnable and uncertain
+- Clear gaps, with each role requirement marked supported, partly supported, not supported or unclear
 - A list of salary and demand claims that still need checking against current sources
 - A small 30-day plan to test the strongest options
 
 ## The Workflow
 
-1. Protect: remove personal, customer and employer details you don't need.
-2. Extract: turn the CV into an evidence map, without rewriting it yet.
-3. Generate: suggest possible roles and explain why each might fit.
-4. Check: compare the best roles with real job descriptions.
-5. Research: check demand, salary and location claims against current sources.
-6. Test: choose small actions that give you better evidence before a big decision.
-7. Decide: the person chooses what to pursue, pause or reject.
+Before you start, remove personal, customer and employer details you don't need.
+
+1. Build the evidence map: turn the CV into an evidence map, without rewriting it yet.
+2. Generate role hypotheses: suggest possible roles and explain why each might fit.
+3. Create a shortlist: choose no more than five roles and score them.
+4. Compare with real roles: check the best ones against current job descriptions.
+5. Verify market claims: check demand, salary and location claims against current sources.
+6. Design small tests: choose small actions that give you better evidence before a big decision.
+7. Make the decision: the person chooses to pursue, test first, build towards, park or reject each role.
 
 ## What This Is Not
 
