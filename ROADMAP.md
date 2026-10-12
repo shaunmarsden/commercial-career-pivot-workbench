@@ -9,7 +9,7 @@
 ## Later
 
 - Add an optional current-job-listing research template
-- Compare a one-prompt result with the evidence-checked workflow
+- ~~Compare a one-prompt result with the evidence-checked workflow~~ done on one fictional CV: no gain on pay claims or CV details, see [the result](evaluations/one-prompt-comparison.md). The next test removes the cautions the CV already carries
 - Record independent feedback without collecting personal CV data
 
 ## Not Planned
