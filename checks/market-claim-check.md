@@ -28,9 +28,11 @@ Several current job listings and a trusted labour-market source beat a single sa
 
 ## Status Labels
 
-- Verified: supported by several relevant, current sources
-- Limited evidence: some current evidence, but the sample or scope is weak
-- Not yet verified: no good enough current evidence
-- Conflicting: relevant sources point different ways
+| Label | Meaning |
+| --- | --- |
+| Verified | Supported by several relevant, current sources |
+| Limited evidence | Some current evidence, but the sample or scope is weak |
+| Not yet verified | No good enough current evidence |
+| Conflicting | Relevant sources point different ways |
 
 Don't cover a gap with confident wording. Keep the uncertainty visible.

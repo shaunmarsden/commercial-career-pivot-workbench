@@ -53,16 +53,20 @@ Choose no more than five roles. Score each from 0 to 2 against:
 
 Keep all five scores visible. Don't hide them in one unexplained total.
 
+You can't score market evidence yet, because you collect the listings in the next step. Leave that column blank now and fill it in after step 4.
+
 ## 4. Compare With Real Roles
 
 Collect three to five current job descriptions for each serious option. Note the source and the date you looked at it.
 
-Split requirements into:
+Mark each requirement with one status:
 
-- Supported: the CV has clear evidence
-- Partly supported: there's related experience, but the requirement is broader or deeper
-- Not supported: the CV has no evidence
-- Unclear: the wording is ambiguous or the evidence needs confirming
+| Status | Meaning |
+| --- | --- |
+| Supported | The CV has clear evidence |
+| Partly supported | There's related experience, but the requirement is broader or deeper |
+| Not supported | The CV has no evidence |
+| Unclear | The wording is ambiguous or the evidence needs confirming |
 
 Use the [CV Claim Check](../checks/cv-claim-check.md) before you rewrite any application material.
 
@@ -82,7 +86,7 @@ If there isn't enough evidence, label the claim `not yet verified`.
 
 ## 6. Design Small Tests
 
-Pick the strongest two or three roles. Choose actions that teach you something, without pretending you've already made a career decision.
+Pick the strongest two or three roles. Choose actions that teach you something, without pretending you've already made a career decision. Spread them over the next 30 days, a week at a time, as the [worked example](../examples/fictional-pivot-output.md) does.
 
 Examples:
 
@@ -98,11 +102,13 @@ Don't automate applications, connection requests or direct messages.
 
 For each shortlisted role, finish with one decision:
 
-- Pursue now: the evidence and practical fit are strong enough to act
-- Test first: promising, but one or two important assumptions are still untested
-- Build towards: relevant, but a real gap needs work
-- Park: not attractive or practical for now
-- Reject: the evidence doesn't support the original idea
+| Decision | Meaning |
+| --- | --- |
+| Pursue now | The evidence and practical fit are strong enough to act |
+| Test first | Promising, but one or two important assumptions are still untested |
+| Build towards | Relevant, but a real gap needs work |
+| Park | Not attractive or practical for now |
+| Reject | The evidence doesn't support the original idea |
 
 Write down the reason. Rejecting a role that sounded right is a useful result.
 
