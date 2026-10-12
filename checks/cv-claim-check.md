@@ -16,10 +16,12 @@ For each statement, ask:
 
 ## Labels
 
-- Supported: directly evidenced and fairly described
-- Needs confirmation: plausible, but the source is incomplete
-- Overstated: based on real experience, but stronger than the evidence
-- Invented: not supported by the information given
+| Label | Meaning |
+| --- | --- |
+| Supported | Directly evidenced and fairly described |
+| Needs confirmation | Plausible, but the source is incomplete |
+| Overstated | Based on real experience, but stronger than the evidence |
+| Invented | Not supported by the information given |
 
 Only supported claims go in a finished CV. Check uncertain facts with the person rather than guessing.
 
