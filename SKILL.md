@@ -25,7 +25,7 @@ Help the user explore possible roles without inventing experience or presenting 
 5. Compare shortlisted roles with current job descriptions when available.
 6. Apply `checks/cv-claim-check.md` before rewriting any CV material.
 7. Apply `checks/market-claim-check.md` to salary, hiring-demand and remote-work claims.
-8. Design two or three small tests for the next 30 days, as workflow step 6 describes.
+8. Design a four-week plan of small tests, one step a week, covering two or three of the shortlisted roles, as workflow step 6 describes.
 9. Finish with pursue now, test first, build towards, park or reject, plus a reason.
 
 ## Output Style
