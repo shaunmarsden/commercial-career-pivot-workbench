@@ -55,6 +55,8 @@ Keep all five scores visible. Don't hide them in one unexplained total.
 
 You can't score market evidence yet, because you collect the listings in the next step. Leave that column blank now and fill it in after step 4.
 
+If the CV doesn't say what you'd enjoy, score Interest 1, which means uncertain, and say it's a placeholder. Change it yourself. Don't leave it blank, and don't guess higher.
+
 ## 4. Compare With Real Roles
 
 Collect three to five current job descriptions for each serious option. Note the source and the date you looked at it.

@@ -16,6 +16,7 @@ This is a workflow for sales and commercial people looking at a nearby role or a
 | Check salary and hiring claims | [Market Claim Check](checks/market-claim-check.md) |
 | See a worked example with no real data | [Fictional Commercial CV](examples/fictional-commercial-cv.md) and [Fictional Pivot Output](examples/fictional-pivot-output.md) |
 | Run it with an AI assistant | [Reusable Skill](SKILL.md) |
+| See how the skill was checked | [Skill Check](evaluations/skill-check.md) |
 
 ## What It Produces
 
