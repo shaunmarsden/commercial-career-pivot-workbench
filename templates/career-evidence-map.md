@@ -42,7 +42,7 @@ Score each dimension from 0 to 2 using the definitions in the workflow.
 
 | Claim | Source | Checked on | Scope and sample | Status |
 | --- | --- | --- | --- | --- |
-|  |  |  |  | Verified / Limited evidence / Not yet verified |
+|  |  |  |  | Verified / Limited evidence / Not yet verified / Conflicting |
 
 ## Decision
 
