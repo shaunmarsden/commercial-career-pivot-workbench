@@ -78,7 +78,7 @@ Interest is 1 for all three because the CV says nothing about what the candidate
 ### Week 1
 
 - Collect five current job descriptions for each shortlisted role
-- Mark every requirement as supported, partly supported, unsupported or unclear
+- Mark every requirement as supported, partly supported, not supported or unclear
 - Record salary and location claims separately rather than asking AI to estimate them
 
 ### Week 2
