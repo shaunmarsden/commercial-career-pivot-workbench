@@ -1,6 +1,6 @@
-# One Prompt or the Workflow? An Eighteen-Run Comparison
+# One Prompt or the Workflow? A Thirty-Six-Run Comparison
 
-The README says this workflow checks the evidence at each step and separates useful ideas from claims you still need to check. I wanted to know whether that beats just asking an AI. I gave the same fictional CV to three setups: a one-line prompt, a careful one-paragraph prompt, and the full skill. I counted pay and demand claims stated as fact, and details added to the CV. On this CV the workflow gained nothing on either count, and its replies were three times as long.
+The README says this workflow checks the evidence at each step and separates useful ideas from claims you still need to check. I wanted to know whether that beats just asking an AI. I gave the same fictional CV to three setups: a one-line prompt, a careful one-paragraph prompt, and the full skill. Then I ran it again with the cautions removed and a direct question about demand and pay. The workflow never beat the careful prompt on pay or demand claims. It did better on one thing, flagging a skill the CV only lists, and its replies ran to about three times the length.
 
 ## What I Compared
 
@@ -55,15 +55,43 @@ By my readings:
 
 **Four one-liner runs called the coaching "informal".** The CV says "coached". No careful-prompt or workflow run did. In the two earlier rounds of the [skill check](skill-check.md), six workflow runs did, so this isn't a clean difference.
 
+## Round Two: Without the Cautions
+
+The first round's main limit was that the CV tells the AI to be careful. So I ran it again with three changes and nothing else, all written down before any run:
+
+- The CV's "Important Unknowns" section is deleted.
+- No prompt says "No live research is available".
+- Every prompt adds a direct question: "Which of them are in demand, and what could I expect to be paid?" I added it because, with the cautions gone, a one-liner has no reason to mention pay. It tempts the AI to state market claims.
+
+Same three setups, six runs each, 18 more runs. The measures were the same, plus one: whether a run gives a pay figure at all, labelled or not.
+
+| Of 6 runs | One-liner | Careful prompt | Workflow |
+| --- | ---: | ---: | ---: |
+| Pay figure given, labelled or not | 6 | 0 | 0 |
+| Market claim stated as fact, with no label | 0 | 0 | 0 |
+| A detail added to the CV | 3 | 2 | 0 |
+| Every suggested role has a stated gap | 4 | 6 | 6 |
+| Average words | 883 | 890 | 2,498 |
+
+- **The question tempted the one-liner, and it answered every time.** All six gave pay ranges in pounds, such as 45k to 70k for a customer success role, and an opinion on demand. Each carried a caveat in the reply, such as "from general knowledge, not checked against live data". That's why the second row is 0: my rule didn't count a labelled claim. By my own rule I don't read that contrast, because the one-liner had unlabelled claims in at most 3 of 6 runs. The pay-figure row is the one that shows the difference.
+- **The careful prompt and the workflow gave no figure at all.** Every careful-prompt run said it couldn't tell which roles are in demand or what they pay, and pointed to job adverts. Every workflow run marked demand and pay "not yet verified" and gave a checklist. On pay and demand the workflow did what the careful prompt did, not more.
+- **The workflow added fewer details to the CV.** The CV lists "workshop facilitation" as a skill and gives no example. All six workflow runs flagged it as skills-list-only and needing confirmation. Three one-liner runs wrote that the candidate "ran workshops" or "facilitates workshops", and one careful-prompt run wrote "facilitated workshops". Two careful-prompt runs listed "new business" selling among the CV's evidence, and the CV doesn't say what kind of selling the account executive did. By my reading that's 3, 2 and 0, against my line of 4, so the workflow doesn't clear it. It's the one measure where the workflow came out ahead.
+- **The workflow still cost more to read.** Its replies averaged 2.8 times the careful prompt's length.
+
+Three Haiku runs, one in each setup, called a tool to suggest a background task and withdrew it. One of them did it twice.
+
 ## What Went Wrong, and What I Can't Tell
 
-- **The CV tells the AI to be careful.** It ends with an "Important Unknowns" section that says no salary requirement and no market research were supplied. With that and the "no live research" line, even the one-liner was cautious. This is the main limit. It's a test of whether the workflow adds care when the AI is already prompted to be careful.
+- **In round one the CV told the AI to be careful.** It ended with an "Important Unknowns" section that said no salary requirement and no market research were supplied. With that and the "no live research" line, even the one-liner was cautious. Round two removes both, but it also adds a question about pay, so it isn't a clean before and after.
 - **I measured two things.** The workflow also produces evidence IDs, scores, a plan and decisions, and I didn't score those.
-- **Six runs a setup.** Two against none isn't a difference I can lean on.
-- **Borderline calls were mine.** Counting "most employers will want that" as a market claim moves the one-liner from 2 to 3.
-- **Four of the nine Haiku runs went outside the task.** Three called a tool to suggest a background task and withdrew it, one of them twice, and one made a failed browser call. So these runs weren't a blank chat.
+- **Six runs a setup, in each round.** Two against none, or three against none, isn't a difference I can lean on.
+- **Borderline calls were mine.** In round one, counting "most employers will want that" as a market claim moves the one-liner from 2 to 3. In round two, calling "ran workshops" an added detail is a judgement, because the CV does list the skill.
+- **My measure missed the main difference in round two.** Labelled estimates scored 0 on the market-claim row, so I added the pay-figure row. I didn't set a reading for it in advance, so it's a description, not a test.
+- **Seven of the eighteen Haiku runs went outside the task.** In round one four did: three called a tool to suggest a background task and withdrew it, one of them twice, and one made a failed browser call. In round two three did the same. So these runs weren't a blank chat.
 - **One fictional CV, a key I wrote.** It says nothing about a real CV, and it doesn't test live research, where enrichment tools go wrong.
 
 ## What I'd Do Next
 
-I haven't changed the README. It still says the workflow checks the evidence at each step, and this test didn't show that it does more than a careful prompt on a CV that already carries the cautions. The fair next test removes them: a CV with no "Important Unknowns" section, and no "no live research" line in the prompt. That's where an AI is tempted to fill the gaps, and where the guardrails would show.
+I haven't changed the README. It says the workflow checks the evidence at each step. These two rounds support part of that: it flagged an unsupported skill every time, where the other setups didn't, and it gave no unsourced pay or demand figure. They don't support the idea that it beats a careful prompt on pay and demand, because the careful prompt did the same. What the workflow adds is a structured record and a set of checks, at about three times the reading. Whether that's worth it depends on the reader, and I haven't measured the structure.
+
+The next test would use a real-looking CV with more traps in it, such as a stretched title, a figure with no source and a skill with no evidence, and count how many each setup lets through.
