@@ -1,6 +1,8 @@
 # A CV With Six Subtle Problems: Does the Workflow Catch More?
 
-The [first problem test](cv-with-problems-test.md) had a ceiling: every setup caught the five clear problems every time. So I wrote a [second CV with six subtle problems](../examples/fictional-commercial-cv-with-subtle-problems.md). None of them contradicts a line next to it. A figure agrees with itself, a title is stretched the same way wherever it appears, and a skill rests on one example. All three setups caught nearly every one again. The one-liner flagged 35 of 36, the careful prompt 35 of 36 and the workflow 36 of 36. The workflow's replies were again about three times the length.
+The [first problem test](cv-with-problems-test.md) had a ceiling: every setup caught the five clear problems every time. So I wrote a [second CV with six subtle problems](../examples/fictional-commercial-cv-with-subtle-problems.md). None of them contradicts a line next to it. A figure agrees with itself, a title is stretched the same way wherever it appears, and a skill rests on one example.
+
+**A correction.** My first run of this test had a flaw. The CV opened with "The example exists only to test whether an AI notices problems in a CV", and its title said "With Subtle Problems". Every setup saw both, the one-liner included. I removed them and ran everything again, and this page reports both runs. With the cue, the one-liner flagged 35 of the 36 problems, the careful prompt 35 and the workflow 36. Without it, they flagged 31, 36 and 35. By my rule there's still no difference. Across both CVs, though, the one-liner missed 11 of 72 problems without the cue, against 3 with it, which suggests the cue helped it a little. The careful prompt and the workflow didn't change.
 
 ## What I Compared
 
@@ -41,9 +43,28 @@ Problem by problem, the one-liner, careful prompt and workflow flagged the figur
 
 **The workflow's labels did what they say.** In its claim-check rows the figure came out "Needs confirmation", "Partial" or "Unclear", the title's leadership claim "Overstated", "Needs confirmation" or "Unclear", and the certification "Needs confirmation", in two rows "Invented" unless a certificate exists. This time no workflow run labelled a stretched claim "Supported".
 
+## The Rerun Without the Cue
+
+I wrote the rerun's rules before any run. The only changes are in the CV: the line and the title cue are gone, and it's now "Fictional Commercial CV C". The problems, the setups, the prompts, the way I judge a reply and the readings are the same, with six new runs a setup.
+
+| Of 6 runs | One-liner | Careful prompt | Workflow |
+| --- | ---: | ---: | ---: |
+| Mean problems flagged, with the cue | 5.8 | 5.8 | 6.0 |
+| Mean problems flagged, without it | 5.2 | 6.0 | 5.8 |
+| Mean passed through, without it | 0.5 | 0.0 | 0.2 |
+| Flagged "nine years" against dates that total eight, without it | 2 | 6 | 6 |
+| Average words, without it | 701 | 856 | 2,630 |
+
+By my readings, there's no difference between the setups on this CV either. The one-liner's mean fell by 0.7, short of my 1.5.
+
+- **The years were the one-liner's miss.** Two runs never mentioned "nine years" and two stated it as fact, so four of six missed it. Every careful-prompt and workflow run flagged it.
+- **Across both CVs the one-liner was the weakest.** Without the cue it flagged 61 of the 72 problems, the careful prompt 67 and the workflow 68. I didn't set a reading for the pooled counts. As a test after the fact, the workflow against the one-liner gives p = 0.05, and the careful prompt against the one-liner p = 0.09, one-tailed, by an exact test. The workflow and the careful prompt don't differ.
+- **The workflow's one pass-through was a label.** One Haiku run marked "Achieved 127% of quota in 2023" as "Supported" in its claim check, because the CV states it. The figure has no source.
+- **The reading cost held.** The workflow's replies averaged 3.1 times the careful prompt's. No stray calls turned up in these 18 runs.
+
 ## What Went Wrong, and What I Can't Tell
 
-- **Still no room to separate them.** I made the problems subtler and the one-liner still caught them. Either these models are good at this, or my problems were still too easy to see once you read the CV closely. I can't tell which.
+- **Little room to separate them, with or without the cue.** I made the problems subtler, and the careful prompt and the workflow still caught nearly all of them. The one-liner caught most. Either these models are good at this, or my problems are still easy to see once you read the CV closely. I can't tell which.
 - **One CV, six problems, six runs a setup.** A miss of one problem in one run isn't a pattern.
 - **I wrote the problems and judged the replies.** One title call was borderline, in a one-liner run.
 - **I counted catches, not damage.** I didn't measure whether a run added new details to the CV.

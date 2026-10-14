@@ -64,7 +64,7 @@ This is a first working version. The method and worked example show the process,
 I've tested it against just asking an AI, on fictional CVs. The results are on the evaluation pages, and they're plainer than I expected:
 
 - **Pay and demand claims.** A careful one-paragraph prompt gave no unsourced pay or demand figures, and neither did the workflow. A bare one-line prompt gave pay figures when I asked for them, labelled as unchecked estimates. See [One Prompt or the Workflow](evaluations/one-prompt-comparison.md).
-- **Problems planted in a CV.** A one-line prompt caught nearly all of them, obvious or subtle, as the workflow did. See [the clear problems](evaluations/cv-with-problems-test.md) and [the subtle ones](evaluations/cv-with-subtle-problems-test.md).
+- **Problems planted in a CV.** Across two fictional CVs with six planted problems each, a one-line prompt flagged 61 of 72, a careful prompt 67 and the workflow 68. The careful prompt did as well as the workflow. See [the clear problems](evaluations/cv-with-problems-test.md) and [the subtle ones](evaluations/cv-with-subtle-problems-test.md). My first runs told the AI the CV was a test, so I reran them without that, and these are the rerun numbers.
 - **One thing the workflow did better.** When a CV listed a skill with no example, it flagged the skill every time. The other setups sometimes wrote it up as experience.
 - **The cost.** Its replies ran to about three times the length of the others.
 
