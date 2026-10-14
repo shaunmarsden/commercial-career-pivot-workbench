@@ -20,6 +20,7 @@ This is a workflow for sales and commercial people looking at a nearby role or a
 | See whether the workflow beats one prompt | [One Prompt or the Workflow](evaluations/one-prompt-comparison.md) |
 | See whether it catches problems in a CV | [A CV With Six Planted Problems](evaluations/cv-with-problems-test.md) |
 | See the same test with subtler problems | [A CV With Six Subtle Problems](evaluations/cv-with-subtle-problems-test.md) |
+| See whether acting on the reply goes better | [A Reader Test](evaluations/reader-test.md) |
 
 ## What It Produces
 
@@ -68,4 +69,4 @@ I've tested it against just asking an AI, on fictional CVs. The results are on t
 - **One thing the workflow did better.** When a CV listed a skill with no example, it flagged the skill every time. The other setups sometimes wrote it up as experience.
 - **The cost.** Its replies ran to about three times the length of the others.
 
-So the workflow's gain isn't that it catches claims a plain prompt misses. It gives you a structured record: evidence IDs, scores, a plan and a decision for each role. I haven't measured whether that's worth the extra reading. The most useful feedback is whether that structure makes your choices clearer.
+So the workflow's gain isn't that it catches claims a plain prompt misses. It gives you a structured record: evidence IDs, scores, a plan and a decision for each role. I tried to measure whether that's worth the extra reading, with readers acting on each reply, and the test couldn't tell, because my task already told them to check. See [the reader test](evaluations/reader-test.md). The most useful feedback is whether that structure makes your choices clearer.
