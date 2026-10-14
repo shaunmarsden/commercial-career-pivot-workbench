@@ -1,6 +1,6 @@
 # Does Acting on the Workflow's Reply Go Better? A Reader Test
 
-The workflow's reply is about three times as long as a plain prompt's reply. I'd said its gain is a structured record, and that I hadn't measured whether the structure helps. I tried. I gave 24 fresh readers a fictional CV and, for 18 of them, an AI's reply about it, and asked each to act on it. The test couldn't show a benefit. All 24 readers, including the six who had no reply at all, left the unsupported claims out of their CV summary and named the problems to check. The one claim that got through was "a team of 15". It reached 2 of 6 summaries with no reply, 0 of 6 with a one-line prompt's reply, 4 of 6 with a careful prompt's reply and 1 of 6 with the workflow's.
+The workflow's reply is about three times as long as a plain prompt's reply. I'd said its gain is a structured record, and that I hadn't measured whether the structure helps. I tried twice. I gave fresh readers a fictional CV and, for 18 of every 24, an AI's reply about it, and asked each to act on it. The first round couldn't show anything, because my task told readers to check. In the second round, without that cue, a reply cut the unsupported details a reader carried into their CV summary by more than half, from 2.0 a reader with no reply to 0.7 to 1.0 with one. The workflow's reply, at about three times the length, did no better than a one-line prompt's.
 
 ## What I Did
 
@@ -45,14 +45,39 @@ By my readings, there's no difference between any two groups, because no group's
 
 **One reader argued with the reply.** They wrote: "One point in the adviser's reply is wrong for my constraints. It says Senior Account Executive 'does not involve stepping down'. It does."
 
+## Round Two: Without the Cue
+
+The first round's task told readers to use "only what you are willing to defend" and to list what they'd "confirm or check". So I ran it again with a task that says neither. Every reader now got: "Name the role you would test first" and "Write three sentences for the top of your CV, aimed at that role." The CV, the four groups, the replies, the measure and the readings are the same, with 24 new readers. I wrote the rules before any run.
+
+| Of 6 readers | No reply | One-liner reply | Careful reply | Workflow reply |
+| --- | ---: | ---: | ---: | ---: |
+| Mean unsupported details carried into the summary | 2.0 | 1.0 | 0.8 | 0.7 |
+| Readers who carried at least one | 6 | 4 | 4 | 3 |
+| Carried "340%" | 5 | 3 | 1 | 1 |
+| Carried "a team of 15" | 4 | 2 | 4 | 3 |
+| Carried "twelve years" | 1 | 1 | 0 | 0 |
+| Carried the AI work | 2 | 0 | 0 | 0 |
+| Carried "advanced financial modelling" | 0 | 0 | 0 | 0 |
+| Average words in the reply they read | 0 | 874 | 923 | 2,646 |
+
+By my readings:
+
+- **A reply helps.** Each reply group's mean is at least 1 lower than the no-reply group's, which was my line. Readers with no reply carried 12 details across six summaries, and the 18 readers with a reply carried 15 between them.
+- **The workflow's structure doesn't help beyond a careful prompt's reply.** Its mean is 0.2 lower, against my line of 1. It isn't 1 lower than the one-liner's reply either.
+- **The test is no longer at its floor.** The no-reply group's mean is 2.0, so readers do carry these claims when nothing warns them.
+
+What got through changed with the reply. "340%" fell furthest, from 5 of 6 summaries with no reply to 1 of 6 with a careful or workflow reply. "A team of 15" barely moved: it was carried by 4 of 6 readers with a careful prompt's reply, as many as with no reply at all. The AI work, which two no-reply readers carried, was carried by none of the 18 with a reply.
+
+Some readers kept a detail but wrote around it. One put a placeholder where the number would go: "growing revenue from [starting figure] to [current figure] over [period]." I didn't count that as carrying the 340%.
+
 ## What Went Wrong, and What I Can't Tell
 
-- **My task did the checking for them.** I asked readers to use "only what you are willing to defend" and to list what they'd "confirm or check". That tells a reader to look for problems, which is the same kind of cue that spoiled my first problem tests. It's why readers with no reply did as well. The test can't show what a reply adds, because the instructions already add it.
+- **In round one my task did the checking for them.** I asked readers to use "only what you are willing to defend" and to list what they'd "confirm or check". That tells a reader to look for problems, the same kind of cue that spoiled my first problem tests. Round two removes it.
 - **Readers are language models.** It says nothing about how much effort a person spends reading three times as much, which is the cost I wanted to weigh.
-- **One CV, six readers a group.** Four of six against none isn't a difference I can lean on.
+- **One CV, six readers a group, in each round.** Counts of one or two readers aren't a difference I can lean on. The gap between no reply and any reply is larger than the gaps between replies.
 - **I judged every answer.** Whether a sentence "carries" a claim was my call, and one reader's "managed a team" with no number I counted as not carried.
-- **One Haiku reader went outside the task.** It called a tool to suggest a background task and withdrew it.
+- **A usage limit cut off the first 12 round-two readers,** before any wrote an answer. I reran them with the same inputs and counted only the reruns. One round-one Haiku reader made a stray tool call, withdrawn, and one round-two reader edited its own answer.
 
 ## What I'd Do Next
 
-I haven't changed the README beyond one sentence saying I tried. A fair version of this test would give readers the task without the cue, for example "Write the three sentences for the top of your CV for the role you'd test first", and nothing about checking or defending, so that what carries into the summary depends on what the reply told them. I haven't run it.
+The README now says what this found. The result I trust is the first one: a reply cuts what a reader carries into their CV, by more than half. The workflow's reply, at about three times the length, did about as well as a one-line prompt's. Whether a person finds its structure easier to act on is still unmeasured, because these readers are language models. A real test would time a person reading each reply and ask what they'd do next.
