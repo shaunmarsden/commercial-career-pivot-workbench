@@ -9,7 +9,7 @@
 ## Later
 
 - Add an optional current-job-listing research template
-- Compare a one-prompt result with the evidence-checked workflow
+- ~~Compare a one-prompt result with the evidence-checked workflow~~ done on one fictional CV, with and without the cautions: the workflow gave no gain on pay or demand claims over a careful prompt, and flagged an unsupported skill every time, see [the result](evaluations/one-prompt-comparison.md)
 - Record independent feedback without collecting personal CV data
 
 ## Not Planned
