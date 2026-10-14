@@ -18,6 +18,7 @@ This is a workflow for sales and commercial people looking at a nearby role or a
 | Run it with an AI assistant | [Reusable Skill](SKILL.md) |
 | See how the skill was checked | [Skill Check](evaluations/skill-check.md) |
 | See whether the workflow beats one prompt | [One Prompt or the Workflow](evaluations/one-prompt-comparison.md) |
+| See whether it catches problems in a CV | [A CV With Six Planted Problems](evaluations/cv-with-problems-test.md) |
 
 ## What It Produces
 
