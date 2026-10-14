@@ -1,6 +1,6 @@
-# Fictional Commercial CV With Problems
+# Fictional Commercial CV B
 
-This candidate and every detail below are fictional. The example exists only to test whether an AI notices problems in a CV. What the test looks for is named below the re-run line.
+This candidate and every detail below are fictional.
 
 ## Candidate B
 
